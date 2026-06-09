@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: Roboto;
+  color: #0000ff;
+  font-weight: bold;
+  font-size: 5rem;
+}
+#navBar {
+  display: flex;
+  background-color: #ffd20a;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0.5rem, solid, black;
+}
+.nav {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+}
+.nav:hover {
+  color: fuchsia;
+}
+.subtitles {
+  font-family: Roboto;
+  font-size: 2.5rem;
+  text-decoration: underline dotted blue 5px;
+}
+.paragraph {
+  font-family: fantasy;
+  font-size: 1.5rem;
+  margin: 1rem;
+  border-color: grey;
+  border-style: solid;
+}
+#defineMe {
+  font-family: fantasy;
+  font-size: 1.5rem;
+  margin: 1rem;
+  font-style: italic;
+  background-color: aqua;
+}
+#basketball {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+#basketball img {
+  width: 32em;
+  height: 20rem;
+}
+#copyright {
+  background-color: black;
+  text-align: center;
+  font-family: roboto;
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+#baseball {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+#baseball img {
+  width: 30em;
+  height: 20rem;
+}
+#video-games {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+#video-games img {
+  width: 30em;
+  height: 20rem;
+}
+#head {
+  font-family: fantasy;
+  font-size: 2rem;
+  margin: 1rem;
+}
+#Debugger {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+#Debugger img {
+  width: 30em;
+  height: 20rem;
+}
+#Website {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+#Website img {
+  width: 30em;
+  height: 20rem;
+}
+#Javascript {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+#Javascript img {
+  width: 30em;
+  height: 20rem;
+}
+.link {
+  font-weight: bolder;
+}
+.link:hover {
+  color: red;
+  font-weight: bolder;
+}
+form {
+  display: grid;
+  grid-template-columns: 4 / 1fr;
+  justify-content: center;
+}
+#form {
+  display: flex;
+  font-family: Roboto;
+  font-size: 2.5rem;
+  text-decoration: underline dotted blue 5px;
+  justify-content: center;
+}
